@@ -27,7 +27,7 @@ This work was done in the past two weeks. The following video introduces a summa
 The [Gravity Rig](#Gravity-Flow-Rig) consists of
 
 * **Steel Structure**
-  + It's the outer skeleton of the Gravity Rig It is made out of steel square tubes `(40 x 40 mm)` having a wall thickness of `4 mm`. The dimensions of the structure is `(3 x 1.2 m)` 
+  + It's the outer skeleton of the Gravity Rig It is made out of steel square tubes `(40 x 40 mm)` having a wall thickness of `4 mm`. The dimensions of the structure is `(3000 x 1200 mm)` 
   
 <p align="center">
   <img width="244" height="392" src="https://user-images.githubusercontent.com/59189327/75509560-4d286880-59e8-11ea-96d0-f19c8addd1ee.JPG">
