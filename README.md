@@ -11,11 +11,17 @@ All updates done in the Master Project 2 will be posted on the repository includ
   
 ## Update 26/02/2020
 
+This work was done is the past two weeks. The following video introduces a summary for the documentation of the new update. 
+
+[![Video Update](https://user-images.githubusercontent.com/59189327/75505063-8fe34400-59da-11ea-97e2-f952b135ac8e.JPG)](https://www.youtube.com/watch?v=bQ2gvs1fL-4)
+
+
 # Gravity Flow Rig
 
   It is an instrumentation that uses a gravity-feed system where a fluid is moved through the system as a result of gravity rather than a pump. An AC motor is attached to the junction box between the collector and the tomographic system. The junction box contain a screw feed drived by the motor to in the plastic beeds to the tomographic system in a periodic manner. The Gravity Rig is designed and modelled on Solidworks with the same dimensions as the real structure that is located in P10 building in University Technology Malaysia (UTM). 
   
-![Gravity Rig](https://imgur.com/pEA68tj)
-
+<p align="center">
+  <img width="326" height="524" src="https://user-images.githubusercontent.com/59189327/75503732-c919b500-59d6-11ea-927e-ae3266198577.JPG">
+</p>
   
     
