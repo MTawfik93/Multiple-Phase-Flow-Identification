@@ -48,14 +48,32 @@ The [Gravity Rig](#Gravity-Flow-Rig) consists of
 </p>
 
 * **Tomographic System**
-  + This the main stage where the project focuses where the flow pattern is controlled by the [Iris Mechanism](https://en.wikipedia.org/wiki/Diaphragm_(optics)) and detected by the `Electrostatic Sensor Array` which will be replaced in this project by a sectioning algorithm to detect the flow pattern. 
+  + This the main stage where the project focuses where the flow pattern is controlled by the [Iris Mechanism](https://en.wikipedia.org/wiki/Diaphragm_(optics)) and detected by the [Electrostatic Sensor Array](https://jurnalteknologi.utm.my/index.php/jurnalteknologi/article/view/3453) which will be replaced in this project by a sectioning algorithm to detect the flow pattern. 
   + It is made of a dielectric PVC pipe with the 1st stage containing the `Iris Mechanism` and the 2nd stage containing the `Electrostatic Sensor Array`
   
 <p align="center">
   <img width="424" height="434" src="https://user-images.githubusercontent.com/59189327/75510670-050b4500-59ec-11ea-854d-e1d1d5fd93e4.JPG">
 </p>
 
-## Iris Mechanism 
+* **Iris Mechanism**
+  + It is the Mechanism that was designed to control the flow patterns. It is taken from the aperture mechanism that is used in camera shutters. 
+  + Overlapping blades are used to create different diameters of flow. When the outer gear is revolved, it turns the small gear attached to the blades' ends simultaneously causing the movement of these blades all together at the same time which creates a varying circle in the middle. A demonstration of the working principle can be seen in the [Video](#Click-Here-to-Watch-Video).
+  
+<p align="center">
+  <img width="513" height="453" src="https://user-images.githubusercontent.com/59189327/75511812-a2b44380-59ef-11ea-99bb-689e6aa9d161.JPG">
+</p>
+
+<p align="center">
+  <img width="538" height="197" src="https://user-images.githubusercontent.com/59189327/75511856-d1321e80-59ef-11ea-9566-c0d64458b876.JPG">
+</p>
+
+* **Plastic Beads Box**
+  + It is a box for collecting the plastic beads after being detected by the [Tomographic system](#Tomographic-System) and it is considered the last stage of the Gravity Flow Rig operation. The beads are then taken again to the [Collector](#Collector) using a vaccuum pump.
+
+<p align="center">
+  <img width="331" height="294" src="https://user-images.githubusercontent.com/59189327/75511331-371da680-59ee-11ea-9be1-9d79b1909703.JPG">
+</p>
+
 
 
   
