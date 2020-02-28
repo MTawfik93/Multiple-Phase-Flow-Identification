@@ -57,7 +57,7 @@ The [Gravity Rig](#Gravity-Flow-Rig) consists of
 
 * **Iris Mechanism**
   + It is the Mechanism that was designed to control the flow patterns. It is taken from the aperture mechanism that is used in camera shutters. 
-  + Overlapping blades are used to create different diameters of flow. When the outer gear is revolved, it turns the small gear attached to the blades' ends simultaneously causing the movement of these blades all together at the same time which creates a varying circle in the middle. A demonstration of the working principle can be seen in the [Video](#Click-Here-to-Watch-Video).
+  + Overlapping blades are used to create different diameters of flow. When the outer gear is revolved, it turns the small gear attached to the blades' ends simultaneously causing the movement of these blades all together at the same time which creates a varying circle in the middle. A demonstration of the working principle can be seen in the [Video](https://www.youtube.com/watch?v=bQ2gvs1fL-4).
   
 <p align="center">
   <img width="513" height="453" src="https://user-images.githubusercontent.com/59189327/75511812-a2b44380-59ef-11ea-99bb-689e6aa9d161.JPG">
@@ -68,7 +68,7 @@ The [Gravity Rig](#Gravity-Flow-Rig) consists of
 </p>
 
 * **Plastic Beads Box**
-  + It is a box for collecting the plastic beads after being detected by the [Tomographic system](*Tomographic-System) and it is considered the last stage of the Gravity Flow Rig operation. The beads are then taken again to the [Collector](#Collector) using a vaccuum pump.
+  + It is a box for collecting the plastic beads after being detected by the Tomographic system and it is considered the last stage of the Gravity Flow Rig operation. The beads are then taken again to the Collector using a vaccuum pump.
 
 <p align="center">
   <img width="331" height="294" src="https://user-images.githubusercontent.com/59189327/75511331-371da680-59ee-11ea-9be1-9d79b1909703.JPG">
