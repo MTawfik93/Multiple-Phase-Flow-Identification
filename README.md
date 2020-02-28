@@ -15,7 +15,7 @@ All updates done in the Master Project 2 will be posted on the repository includ
 
   It is an instrumentation that uses a gravity-feed system where a fluid is moved through the system as a result of gravity rather than a pump. An AC motor is attached to the junction box between the collector and the tomographic system. The junction box contain a screw feed drived by the motor to in the plastic beeds to the tomographic system in a periodic manner. The Gravity Rig is designed and modelled on Solidworks with the same dimensions as the real structure that is located in P10 building in University Technology Malaysia (UTM). 
   
-  ![Gravity Rig](https://ibb.co/6PsMW5V)
+![Gravity Rig](https://imgur.com/pEA68tj)
 
   
     
