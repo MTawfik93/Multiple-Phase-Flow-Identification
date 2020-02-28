@@ -11,14 +11,14 @@ All updates done in the Master Project 2 will be posted on the repository includ
   
 ## Update 26/02/2020
 
-This work was done is the past two weeks. The following video introduces a summary for the documentation of the new update. 
+This work was done in the past two weeks. The following video introduces a summary for the documentation of the new update. 
 
-* [Click to Watch Video](https://www.youtube.com/watch?v=bQ2gvs1fL-4)
+* [Click Here to Watch Video](https://www.youtube.com/watch?v=bQ2gvs1fL-4)
 
 
 # Gravity Flow Rig
 
-  It is an instrumentation that uses a gravity-feed system where a fluid is moved through the system as a result of gravity rather than a pump. An AC motor is attached to the junction box between the collector and the tomographic system. The junction box contain a screw feed drived by the motor to in the plastic beeds to the tomographic system in a periodic manner. The Gravity Rig is designed and modelled on **Solidworks** with the same dimensions as the real structure that is located in `P10` building in University Technology Malaysia (UTM). 
+  It is an instrumentation that uses a gravity-feed system where a fluid is moved through the system as a result of gravity rather than a pump. An [AC motor](https://en.wikipedia.org/wiki/AC_motor) is attached to the junction box between the collector and the tomographic system. The junction box contain a screw feed drived by the motor to in the plastic beeds to the tomographic system in a periodic manner. The Gravity Rig is designed and modelled on [Solidworks](https://www.solidworks.com/) with the same dimensions as the real structure that is located in `P10` building in University Technology Malaysia ([UTM](https://www.utm.my/)). 
   
 <p align="center">
   <img width="326" height="524" src="https://user-images.githubusercontent.com/59189327/75503732-c919b500-59d6-11ea-927e-ae3266198577.JPG">
@@ -43,13 +43,19 @@ The [Gravity Rig](#Gravity-Flow-Rig) consists of
 * **Screw Feeder**
   + In this stage the plastic beeds are fed from the collector to an `AC motor` that drives a screw feeder which moves the beeds to the tube in a periodic manner and it has a control unit which controls its speed.
   
-  <p align="center">
+<p align="center">
   <img width="532" height="305" src="https://user-images.githubusercontent.com/59189327/75509831-38000980-59e9-11ea-989e-d7e06fb36f46.JPG">
 </p>
 
 * **Tomographic System**
-  + 
+  + This the main stage where the project focuses where the flow pattern is controlled by the [Iris Mechanism](https://en.wikipedia.org/wiki/Diaphragm_(optics)) and detected by the `Electrostatic Sensor Array` which will be replaced in this project by a sectioning algorithm to detect the flow pattern. 
+  + It is made of a dielectric PVC pipe with the 1st stage containing the `Iris Mechanism` and the 2nd stage containing the `Electrostatic Sensor Array`
+  
+<p align="center">
+  <img width="424" height="434" src="https://user-images.githubusercontent.com/59189327/75510670-050b4500-59ec-11ea-854d-e1d1d5fd93e4.JPG">
+</p>
 
+## Iris Mechanism 
 
 
   
