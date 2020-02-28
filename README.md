@@ -68,7 +68,7 @@ The [Gravity Rig](#Gravity-Flow-Rig) consists of
 </p>
 
 * **Plastic Beads Box**
-  + It is a box for collecting the plastic beads after being detected by the [Tomographic system](#Tomographic-System) and it is considered the last stage of the Gravity Flow Rig operation. The beads are then taken again to the [Collector](#Collector) using a vaccuum pump.
+  + It is a box for collecting the plastic beads after being detected by the [Tomographic system](*Tomographic-System) and it is considered the last stage of the Gravity Flow Rig operation. The beads are then taken again to the [Collector](#Collector) using a vaccuum pump.
 
 <p align="center">
   <img width="331" height="294" src="https://user-images.githubusercontent.com/59189327/75511331-371da680-59ee-11ea-9be1-9d79b1909703.JPG">
