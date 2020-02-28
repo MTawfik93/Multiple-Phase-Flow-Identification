@@ -1,4 +1,4 @@
-# Multiple Phase Flow Identification using Computational Simulation and a Convolutional Neural Network
+# Multiple Phase Flow Identification using Computational Simulation and Convolutional Neural Network 
 
   This repository is a Master Project under the supervision of Prof. Mohd Fua'ad Bin Rahmat at the University Technology Malaysia.
 All updates done in the Master Project 2 will be posted on the repository including codes, CAD Designs, videos, dataset, and Results.
@@ -15,7 +15,7 @@ All updates done in the Master Project 2 will be posted on the repository includ
 
   It is an instrumentation that uses a gravity-feed system where a fluid is moved through the system as a result of gravity rather than a pump. An AC motor is attached to the junction box between the collector and the tomographic system. The junction box contain a screw feed drived by the motor to in the plastic beeds to the tomographic system in a periodic manner. The Gravity Rig is designed and modelled on Solidworks with the same dimensions as the real structure that is located in P10 building in University Technology Malaysia (UTM). 
   
-  ![Gravity Rig]()
+  ![Gravity Rig](https://ibb.co/6PsMW5V)
 
   
     
