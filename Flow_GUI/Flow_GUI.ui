@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Multiphase Flow Identifier</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>flow-icon-png-8.png</normaloff>flow-icon-png-8.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="Flow_Concentration_Profile">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>261</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>Flow Concentration Profile</string>
+    </property>
+    <widget class="QGraphicsView" name="Uploaded_Image">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Scale">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>91</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string> Scale</string>
+    </property>
+    <widget class="QLabel" name="High">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>High</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Medium">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Medium</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Low">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>210</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Low</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Scale_image">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>21</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../UTM/4th Semester/21-4-2020/cfd/ind2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="Upload_Label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Upload Flow Data</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Browse_Image">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>320</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>browse-folder.png</normaloff>browse-folder.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>22</width>
+      <height>22</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+U</string>
+    </property>
+    <property name="popupMode">
+     <enum>QToolButton::DelayedPopup</enum>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+    <property name="autoRaise">
+     <bool>false</bool>
+    </property>
+    <property name="arrowType">
+     <enum>Qt::NoArrow</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Show_Image_Name">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>320</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="Actual_Flow">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Actual Flow</string>
+    </property>
+    <widget class="QComboBox" name="Actual_Flow_Selection">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>20</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>....</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Annular 25 mm</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Annular 75 mm</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Full Flow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3 Quarter Flow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Half Flow</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Quarter Flow</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="Select_Label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Select Flow Type</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Prediction">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>100</y>
+      <width>261</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Predicted Flow</string>
+    </property>
+    <widget class="QPlainTextEdit" name="Result_text">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>221</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Identify_Button">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>290</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Identify</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save_Results">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>340</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Save Result</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>673</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="New_File"/>
+    <addaction name="Save"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="New_File">
+   <property name="text">
+    <string>New File</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="Save">
+   <property name="text">
+    <string>Save </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
